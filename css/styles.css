@@ -1,0 +1,185 @@
+body {
+
+    margin: 0;
+    text-align: center; /* it won't work on element containing width */
+    font-family: 'Merriweather', serif; 
+    color: #40514E;
+}
+
+.top-intro {
+
+    text-align: center;
+    color: #45b29a;
+    padding: 1em 0;
+    font-size: 120%;
+    font-weight: 400;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin-top: 50 auto 0 auto;  /* (auto) will center the element either vertically or horizontally */
+    font-size: 7.625rem;   /* 16px = 100% = 1em [ better to use rem as they are not involved with parent font size ] */
+    color: #66BFBF;
+    
+}
+
+h2 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+
+.top-container {
+    background-color: #F5F5DC;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+
+    margin: 100px 0;
+}
+
+.bottom-container {
+
+    background-color: #66BFBF;
+    padding: 50px 0 20px; /* padding can't be auto */
+    
+   
+}
+
+.profile-pic {
+
+    border-radius: 50%;
+    width: 220px;
+}
+
+
+.top-cloud {
+
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    
+}
+.bottom-cloud {
+
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.footer-link {
+
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+
+    color: #EAF6F6;
+}
+
+.relaxation-row {
+
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.csgo-gif {
+
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10%;
+}
+
+.anime-gif {
+
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+
+hr {
+
+    border-style: none;
+    border-width: 5px;
+    width: 5%;
+    border-color: #aec7c7;
+    border-top-style: dotted;
+    margin: 100px auto;
+
+
+}
+
+.copyright {
+
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .contact-me {
+
+    margin: 5rem;
+  }
+
+  .intro {
+
+    width: 30%;
+    margin: auto;
+  }
+
+  p {
+
+    line-height: 2rem;
+  }
+
+  .contact-message {
+
+    width: 40%;
+    margin: 40px auto 60px;
+  }
